@@ -1,0 +1,16 @@
+@media (max-width: 640px) {
+  .App {
+    width: 640px;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 600px) {
+  .App {
+    width: 600px;
+    overflow-x: hidden;
+  }
+}
+.App {
+  overflow-x: hidden;
+}

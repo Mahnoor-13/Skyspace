@@ -1,0 +1,64 @@
+.vector-img-div {
+  background-color: #deffde;
+  border-top-left-radius: 246%;
+}
+
+.img-vector {
+  width: 117%;
+}
+.img-div {
+  padding: 25% 17% 0;
+}
+
+.give-it-try {
+  background-color: #32cd32;
+  color: white;
+  border-radius: 7px;
+  border-color: #32cd32;
+  width: 30%;
+  height: 20%;
+}
+.give-it-try:hover {
+  border-color: #32cd32;
+  color: #32cd32;
+  background-color: white;
+}
+.own-your-space {
+  color: #32cd32;
+}
+.skydpace-provivides {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 1075px) {
+  .give-it-try {
+    height: 10%;
+  }
+}
+
+@media (max-width: 990px) {
+  .give-it-try {
+    height: 20%;
+    width: 45%;
+  }
+  .flex {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 766px) {
+  .give-it-try {
+    height: 20%;
+    width: 30%;
+  }
+}
+@media (max-width: 550px) {
+  .skydpace-provivides {
+    font-size: 1.1rem;
+  }
+}
+@media(max-width: 530px) {
+  .give-it-try{
+    width: 40%;
+  }
+}

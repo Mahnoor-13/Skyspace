@@ -1,0 +1,40 @@
+.home-all {
+  margin-left: 5%;
+}
+.form-btns {
+  margin: 10%;
+}
+.logo {
+  margin: 0 2%;
+}
+.home {
+  color: #32cd32 !important;
+}
+/* .sign-up {
+  width: 48%;
+} */
+.btn-color {
+  border-color: #32cd32;
+  border-radius: 7px;
+  color: #32cd32;
+}
+.btn-color:hover {
+  background-color: #32cd32;
+  color: white;
+  border-color: #32cd32;
+}
+
+.btn-color-login {
+  background-color: #32cd32;
+  color: white;
+  border-radius: 7px;
+  border-color: #32cd32;
+}
+.btn-color-login:hover {
+  border-color: #32cd32;
+  color: #32cd32;
+  background-color: white;
+}
+a:hover {
+    color: #32cd32!important;
+}

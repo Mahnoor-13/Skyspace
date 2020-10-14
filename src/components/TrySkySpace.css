@@ -1,0 +1,23 @@
+.try-back {
+  background-color: #32cd32;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  align-items: center;
+}
+.get-started {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  background-color: #32cd32;
+  color: white;
+  border-radius: 7px;
+  border-color: #32cd32;
+}
+.get-started:hover {
+  border-color: #32cd32;
+  color: #32cd32;
+  background-color: white;
+}
+.heading-try {
+    color: white;
+}

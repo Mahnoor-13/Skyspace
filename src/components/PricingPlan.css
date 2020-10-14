@@ -1,0 +1,62 @@
+.pricing-bg {
+  background-color: rgb(213, 248, 223);
+  padding: 1%;
+}
+.card {
+  width: 12rem;
+}
+.all-cards-pricing {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.all-cards-bottom-pricing {
+  display: flex;
+  justify-content: space-evenly;
+  width: 53%;
+  margin: 3% 23%;
+  flex-wrap: wrap;
+}
+
+.pricing-heading {
+  text-align: center;
+  margin: 4%;
+  color: #32cd32;
+}
+.card-text-pricing {
+  font-size: 12px;
+  margin-top: 15%;
+}
+.card-body-pricing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 6%;
+  line-height: 27px;
+}
+.card1-pricing {
+  border-block-start: 5px solid red;
+}
+.card2-pricing {
+  border-block-start: 5px solid yellow;
+}
+.card3-pricing {
+  border-block-start: 5px solid blue;
+}
+.month {
+  font-size: 0.9rem;
+}
+.card-pricing {
+    width: 17rem;
+    background-color: white;
+}
+.pricing-para {
+    margin-top: 15%;
+}
+@media(max-width: 461px) {
+  .card-pricing {
+    margin-top: 5%;
+  }
+}

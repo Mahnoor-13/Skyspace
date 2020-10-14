@@ -1,0 +1,87 @@
+.col-c {
+  float: left;
+}
+.community-heading {
+  color: #32cd32;
+  margin-top: 5%;
+}
+.layer {
+  width: 20%;
+}
+
+.container-cards {
+  width: 138% !important;
+  padding-right: 11px !important;
+  padding-left: 0 !important;
+}
+.arrow {
+  border-radius: 100%;
+  box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  color: #32cd32;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 9%;
+}
+.arrow:hover {
+  background-color: #32cd32;
+  color: white !important;
+  border-color: #32cd32;
+}
+.layer-image {
+  border-radius: 95px;
+  width: 65%;
+}
+.community-images-stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 9px;
+}
+.stars {
+  margin-top: 5%;
+}
+.card-text-align {
+  text-align: center;
+}
+.john-bent {
+  font-size: 10px;
+  margin: 3%;
+}
+.name-card {
+  font-weight: bold;
+}
+.card-border {
+  border-radius: 14px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name-experience {
+  padding: 8%;
+}
+.card {
+  width: 13rem !important;
+}
+
+@media (max-width: 770px) {
+  .card-border {
+    margin-left: 17%;
+  }
+}
+@media (max-width: 990px) {
+  .layer {
+    margin-top: 5%;
+  }
+}
+.arrow-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media(max-width: 767px) {
+  .arrow{
+    width: 10%;
+  }
+}
