@@ -11,7 +11,7 @@ const Technology = (props) => {
               <div className="row">
                 <div className="col-9 mx-auto">
                   <div className="row ">
-                    <div className="col-md-6 d-flex justify-content-center flex-column">
+                    <div className="col-md-6 lock-technology-heading">
                       <img
                         className="lock"
                         src={require("../images/laptop.png")}
@@ -24,6 +24,24 @@ const Technology = (props) => {
                       </h5>
                     </div>
 
+
+                     {/* FOR RESPONSIVE */}
+
+                     <div className=" lock-technology-heading2">
+                     <img
+                       className="lock"
+                       src={require("../images/laptop.png")}
+                     />
+
+                     <h1 className="technology-heading">technology</h1>
+                     <h5 className="my-3 technology">
+                       SkySpce provides simple and intuitive interface to store
+                       & manage your data, services and interactions
+                     </h5>
+                   </div>
+                    
+                    
+                    
                     <div className="col-lg-6 img-div-technology ">
                       <div className="technology-img">
                         <img

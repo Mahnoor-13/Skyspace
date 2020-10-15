@@ -1,5 +1,5 @@
 .open-back {
-  background-color: rgb(79, 175, 79);
+  background-color: #1ed660;
 }
 .open-img {
   border-radius: 100%;
@@ -41,4 +41,41 @@
   }
 
 
+}
+
+
+@media (max-width: 992px) {
+  .row-wrap-open {
+    display: flex !important;
+
+    flex-wrap: wrap-reverse !important;
+  }
+}
+
+
+
+
+.lock-open-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lock-open-heading2 {
+  display: none;
+}
+@media (max-width: 992px) {
+  .lock-open-heading2 {
+    align-items: center;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lock-open-heading {
+    display: none;
+  }
+  .open {
+    text-align: center;
+    color: white;
+  }
 }

@@ -11,7 +11,7 @@ const PrivacyandControl = (props) => {
             <div className="row">
               <div className="col-9 mx-auto">
                 <div className="row ">
-                  <div className="col-md-6 d-flex justify-content-center flex-column">
+                  <div className="col-md-6 lock-privacy-heading">
                   <img className="lock" src={require("../images/padlock.png")} />
 
                     <h1 className="privacy-heading">
@@ -22,6 +22,24 @@ const PrivacyandControl = (props) => {
                       manage your data, services and interactions
                     </h5>
                   </div>
+
+
+                  {/* FOR RESPONSIVE */}
+                  
+
+                  <div className="lock-privacy-heading2">
+                  <img className="lock" src={require("../images/padlock.png")} />
+
+                    <h1 className="privacy-heading">
+                     Privacy and Control
+                    </h1>
+                    <h5 className="my-3 privacy2">
+                      SkySpce provides simple and intuitive interface to store &
+                      manage your data, services and interactions
+                    </h5>
+                  </div>
+                  
+                  
                   <div className="col-lg-6  img-div-privacy  ">
                     <div className="privacy-img">
                       <img

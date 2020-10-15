@@ -1,5 +1,5 @@
 .pricing-bg {
-  background-color: rgb(213, 248, 223);
+  background-color: #edfcf3;
   padding: 1%;
 }
 .card {
@@ -49,14 +49,21 @@
   font-size: 0.9rem;
 }
 .card-pricing {
-    width: 17rem;
-    background-color: white;
+  width: 17rem;
+  background-color: white;
 }
 .pricing-para {
-    margin-top: 15%;
+  margin-top: 15%;
 }
-@media(max-width: 461px) {
+@media (max-width: 461px) {
   .card-pricing {
     margin-top: 5%;
+  }
+}
+
+@media (max-width: 831px) {
+  .card3-pricing {
+    margin-top: 5%;
+    margin: 6%;
   }
 }

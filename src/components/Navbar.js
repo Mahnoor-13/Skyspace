@@ -9,17 +9,6 @@ export const Navbar = () => {
           <a class="navbar-brand  logo" href="#">
             <img src={require("../images/logo.png")} width="150" />
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto home-all">
@@ -46,21 +35,35 @@ export const Navbar = () => {
                 </a>
               </li>
             </ul>
+          </div>
 
+          <div className="form-hamburg">
             <form class="form-inline my-2 my-lg-0 form-btns">
               <button
-                class="btn  btn-outline-success my-2 my-sm-0   mr-sm-2 btn-color-login"
+                class="btn  btn-outline-success my-2 my-sm-0   mr-sm-2 btn-color"
                 type="submit"
               >
-                Log  in
+                Log in
               </button>
               <button
-                class="btn btn-outline-success my-2 my-sm-0 btn-color"
+                class="btn btn-outline-success my-2 my-sm-0 btn-color-signup signup"
                 type="submit"
               >
                 Sign up
               </button>
             </form>
+
+            <button
+              class="navbar-toggler hamburg"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
           </div>
         </nav>
       </div>

@@ -1,5 +1,5 @@
 .main-back {
-  background-color: #deffde;
+  background-color: #edfcf3;
 }
 .whyskyspace-div {
   display: flex;
@@ -13,4 +13,10 @@
 }
 .color-h5 {
   color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 992px) {
+  .color-h5 {
+    text-align: center;
+  }
 }

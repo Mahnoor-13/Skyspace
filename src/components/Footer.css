@@ -29,13 +29,13 @@
 }
 .footer-subscribe {
     border-radius: 20px;
-    background-color: #32cd32;
+    background-color: #1ed660;
     color: white;
 
 }
 .footer-subscribe:hover {
     background-color: white;
-    color: #32cd32;
+    color: #1ed660;
 
 }
 .footer-followon{

@@ -5,17 +5,24 @@ const Home = (props) => {
   return (
     <>
       <section id="header" Contact className="">
+      <div>
+      {" "}
+      <h1 className="own-your-space2">
+        {" "}
+        Own Your Space 
+      </h1>{" "}
+    </div>
         <div className="container-fluid ">
           <div className="row">
             <div className="col-12 mx-auto">
               <div className="row flex">
                 <div className="col-6  pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                  <div>
+                  <h1 className="own-your-space">
                     {" "}
-                    <h1 className="own-your-space">
-                      {" "}
-                      Own Your Space that's truly yours in every aspect.
-                    </h1>
+                    Own Your Space that's truly yours in every aspect.
+                  </h1>
+                  <div className="para-btn-res">
+                    {" "}
                     <h5 className="my-3 skydpace-provivides">
                       SkySpce provides simple and intuitive interface to store &
                       manage your data, services and interactions

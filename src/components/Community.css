@@ -33,7 +33,12 @@
 }
 .layer-image {
   border-radius: 95px;
-  width: 65%;
+  width: 64%;
+}
+
+.layer-image2 {
+  border-radius: 95px;
+  width: 61%;
 }
 .community-images-stars {
   display: flex;
@@ -80,8 +85,12 @@
   flex-direction: row;
   justify-content: flex-end;
 }
-@media(max-width: 767px) {
-  .arrow{
+@media (max-width: 767px) {
+  .arrow {
     width: 10%;
   }
+}
+.card-border-margin {
+  margin-right: -35px!important;
+  margin-left: -13px;
 }

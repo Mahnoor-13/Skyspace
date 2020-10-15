@@ -10,7 +10,7 @@ const OpenSource = (props) => {
             <div className="container-fluid ">
               <div className="row">
                 <div className="col-9 mx-auto">
-                  <div className="row ">
+                  <div className="row row-wrap-open">
                     <div className="col-lg-6 img-div-open   ">
                       <div className="open-img">
                         <img
@@ -20,7 +20,7 @@ const OpenSource = (props) => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6 d-flex justify-content-center flex-column">
+                    <div className="col-md-6 lock-open-heading">
                       <img
                         className="lock"
                         src={require("../images/opensource.png")}
@@ -32,6 +32,26 @@ const OpenSource = (props) => {
                         & manage your data, services and interactions
                       </h5>
                     </div>
+
+
+                        {/* FOR RESPONSIVE */}
+
+                        <div className=" lock-open-heading2">
+                        <img
+                          className="lock"
+                          src={require("../images/laptop.png")}
+                        />
+   
+                        <h1 className="open-heading">open</h1>
+                        <h5 className="my-3 open">
+                          SkySpce provides simple and intuitive interface to store
+                          & manage your data, services and interactions
+                        </h5>
+                      </div>
+                    
+                      
+
+                      
                   </div>
                 </div>
               </div>

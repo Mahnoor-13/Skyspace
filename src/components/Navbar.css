@@ -1,40 +1,58 @@
 .home-all {
   margin-left: 5%;
 }
-.form-btns {
-  margin: 10%;
-}
+
 .logo {
   margin: 0 2%;
 }
 .home {
-  color: #32cd32 !important;
+  color: #1ed660 !important;
 }
 /* .sign-up {
   width: 48%;
 } */
 .btn-color {
-  border-color: #32cd32;
+  border-color: #1ed660;
   border-radius: 7px;
-  color: #32cd32;
+  color: #1ed660;
 }
 .btn-color:hover {
-  background-color: #32cd32;
+  background-color: #1ed660;
   color: white;
-  border-color: #32cd32;
+  border-color: #1ed660;
 }
 
-.btn-color-login {
-  background-color: #32cd32;
+.btn-color-signup {
+  background-color: #1ed660;
   color: white;
   border-radius: 7px;
-  border-color: #32cd32;
+  border-color: #1ed660;
 }
-.btn-color-login:hover {
-  border-color: #32cd32;
-  color: #32cd32;
+.btn-color-signup:hover {
+  border-color: #1ed660;
+  color: #1ed660;
   background-color: white;
 }
 a:hover {
-    color: #32cd32!important;
+  color: #1ed660 !important;
 }
+
+@media (max-width: 992px) {
+  .form-hamburg {
+    display: flex;
+  }
+  .form-btns {
+    margin-right: 5px;
+  }
+}
+@media (max-width: 574px) {
+  .hamburg {
+    height: 3rem;
+    margin-top: 4%;
+  }
+  .signup {
+    margin-right: 5px;
+
+  }
+}
+

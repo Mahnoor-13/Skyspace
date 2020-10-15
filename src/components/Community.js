@@ -67,7 +67,7 @@ const Technology = (props) => {
                               >
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
-                                    <div class="row">
+                                    <div class="row card-border-margin">
                                       <div class="col-md-4 mb-1">
                                         <div class="card card-border">
                                           <div className="community-images-stars">
@@ -105,7 +105,7 @@ const Technology = (props) => {
                                         <div class="card card-border">
                                           <div className="community-images-stars">
                                             <img
-                                              class="img-fluid layer-image"
+                                              class="img-fluid layer-image2"
                                               alt="100%x280"
                                               src={require("../images/Layer14.png")}
                                             />
@@ -167,12 +167,12 @@ const Technology = (props) => {
                                     </div>
                                   </div>
                                   <div class="carousel-item">
-                                    <div class="row">
+                                    <div class="row card-border-margin">
                                       <div class="col-md-4 mb-3">
                                         <div class="card card-border">
                                           <div className="community-images-stars">
                                             <img
-                                              class="img-fluid layer-image"
+                                              class="img-fluid layer-image2"
                                               alt="100%x280"
                                               src={require("../images/Layer14.png")}
                                             />
@@ -234,7 +234,7 @@ const Technology = (props) => {
                                         <div class="card card-border">
                                           <div className="community-images-stars">
                                             <img
-                                              class="img-fluid layer-image"
+                                              class="img-fluid layer-image2"
                                               alt="100%x280"
                                               src={require("../images/Layer14.png")}
                                             />

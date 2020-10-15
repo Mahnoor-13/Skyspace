@@ -1,5 +1,5 @@
 .technology-back {
-  background-color: blue;
+  background-color: #38b6ff;
 }
 .technology-img {
   border-radius: 100%;
@@ -28,16 +28,39 @@
 .technology {
   color: white;
 }
-.technology-img2{
+.technology-img2 {
   width: 100%;
   padding: 10%;
   padding-top: 20%;
 }
-@media(max-width: 992px) {
-  .img-div-technology{
+@media (max-width: 992px) {
+  .img-div-technology {
     display: flex;
     justify-content: center;
   }
+}
 
-
+.lock-technology-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lock-technology-heading2 {
+  display: none;
+}
+@media (max-width: 992px) {
+  .lock-technology-heading2 {
+    align-items: center;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lock-technology-heading {
+    display: none;
+  }
+  .technology {
+    text-align: center;
+    color: white;
+  }
 }

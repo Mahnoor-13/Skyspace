@@ -1,5 +1,5 @@
 .privacy-back {
-  background-color: red;
+  background-color: #ff3d3d;
 }
 .privacy-img {
   border-radius: 100%;
@@ -21,13 +21,11 @@
 .img-div-privacy {
   padding: 5%;
 }
-@media(max-width: 992px) {
-  .img-div-privacy{
+@media (max-width: 992px) {
+  .img-div-privacy {
     display: flex;
     justify-content: center;
   }
-
-
 }
 .privacy-heading {
   color: white;
@@ -46,4 +44,28 @@
   width: 100%;
   padding: 7%;
   padding-top: 14%;
+}
+.lock-privacy-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lock-privacy-heading2 {
+  display: none;
+}
+@media (max-width: 992px) {
+  .lock-privacy-heading2 {
+    align-items: center;
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lock-privacy-heading {
+    display: none;
+  }
+  .privacy2 {
+    text-align: center;
+    color: white;
+  }
 }
