@@ -55,6 +55,7 @@
 .john-bent {
   font-size: 10px;
   margin: 3%;
+  height: 2rem !important;
 }
 .name-card {
   font-weight: bold;

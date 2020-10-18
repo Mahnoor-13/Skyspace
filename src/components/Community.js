@@ -64,6 +64,7 @@ const Technology = (props) => {
                                 id="carouselExampleIndicators2"
                                 class="carousel slide"
                                 data-ride="carousel"
+                                data-interval="false"
                               >
                                 <div class="carousel-inner">
                                   <div class="carousel-item active">
