@@ -23,7 +23,7 @@ const Technology = (props) => {
         <div className="community-heading-display">
           <section id="header" className="">
             <div className="container-fluid ">
-              <div className="row">
+              <div className="row ">
                 <div className="col-9 mx-auto">
                   <div className="row ">
                     <div className="col-md-6 d-flex justify-content-center flex-column">
@@ -39,8 +39,8 @@ const Technology = (props) => {
 
                     <div className="col-lg-6   ">
                       <section class="pt-5 pb-5">
-                        <div class="container container-cards">
-                          <div class="row">
+                        <div class=" container-cards">
+                          <div class="row-cards">
                             <div class="col-10 text-right arrow-display">
                               <a
                                 class="btn btn-primary mb-3 mr-1 arrow"
@@ -59,7 +59,7 @@ const Technology = (props) => {
                                 <ArrowForwardIcon />{" "}
                               </a>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 all-columns">
                               <div
                                 id="carouselExampleIndicators2"
                                 class="carousel slide"
@@ -148,21 +148,21 @@ const Technology = (props) => {
                                           </div>
 
                                           <div className="name-experience">
-                                          <p class="card-text-align">
-                                            With supporting text below as a
-                                            natural lead-in to additional
-                                            content.
-                                          </p>
+                                            <p class="card-text-align">
+                                              With supporting text below as a
+                                              natural lead-in to additional
+                                              content.
+                                            </p>
 
-                                          <p class="john-bent">
-                                            <span className="name-card">
-                                              {" "}
-                                              John Bent
-                                            </span>{" "}
-                                            <span>|</span>{" "}
-                                            <span>CEO & manager,Pelleck</span>
-                                          </p>
-                                        </div>
+                                            <p class="john-bent">
+                                              <span className="name-card">
+                                                {" "}
+                                                John Bent
+                                              </span>{" "}
+                                              <span>|</span>{" "}
+                                              <span>CEO & manager,Pelleck</span>
+                                            </p>
+                                          </div>
                                         </div>
                                       </div>
                                     </div>
@@ -214,21 +214,21 @@ const Technology = (props) => {
                                             />
                                           </div>
                                           <div className="name-experience">
-                                          <p class="card-text-align">
-                                            With supporting text below as a
-                                            natural lead-in to additional
-                                            content.
-                                          </p>
+                                            <p class="card-text-align">
+                                              With supporting text below as a
+                                              natural lead-in to additional
+                                              content.
+                                            </p>
 
-                                          <p class="john-bent">
-                                            <span className="name-card">
-                                              {" "}
-                                              John Bent
-                                            </span>{" "}
-                                            <span>|</span>{" "}
-                                            <span>CEO & manager,Pelleck</span>
-                                          </p>
-                                        </div>
+                                            <p class="john-bent">
+                                              <span className="name-card">
+                                                {" "}
+                                                John Bent
+                                              </span>{" "}
+                                              <span>|</span>{" "}
+                                              <span>CEO & manager,Pelleck</span>
+                                            </p>
+                                          </div>
                                         </div>
                                       </div>
                                       <div class="col-md-4 mb-3">

@@ -12,12 +12,13 @@
   justify-content: space-evenly;
   width: 53%;
   margin: 3% 23%;
+  flex-wrap: wrap;
 }
 
 .features-heading {
   text-align: center;
   margin: 4%;
-  color: #32cd32;
+  color: #1ed660;
 }
 .card-text {
   font-size: 12px;
@@ -47,9 +48,11 @@
     margin-top: 5%;
   }
 }
-@media (max-width: 784px) {
+@media (max-width: 830px) {
   .all-cards-bottom {
     width: 100%;
     margin: 0;
   }
 }
+
+

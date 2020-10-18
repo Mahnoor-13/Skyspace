@@ -8,9 +8,117 @@
 .home {
   color: #1ed660 !important;
 }
+.navbar {
+  position: relative;
+}
 /* .sign-up {
   width: 48%;
 } */
+.btn-color {
+  border-color: #1ed660;
+  border-radius: 7px;
+  color: #1ed660;
+  margin-right: 8px;
+}
+.btn-color-signup {
+  margin-right: 8px;
+}
+.btn-color:hover {
+  background-color: #1ed660;
+  color: white;
+  border-color: #1ed660;
+}
+
+.btn-color-signup {
+  background-color: #1ed660;
+  color: white;
+  border-radius: 7px;
+  border-color: #1ed660;
+}
+.btn-color-signup:hover {
+  border-color: #1ed660;
+  color: #1ed660;
+  background-color: white;
+}
+a:hover {
+  color: #1ed660 !important;
+}
+
+@media (max-width: 992px) {
+  .form-hamburg {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 574px) {
+  .hamburg {
+    height: 3rem;
+    margin-top: 4%;
+  }
+}
+
+@media (max-width: 590px) {
+  .btn-color {
+    padding: 4%;
+    font-size: 70%;
+    margin-right: 7px;
+    /* eight: 83%; */
+    /* margin-right: 2px; */
+    /* width: 123%; */
+    height: 78%;
+  }
+  .signup {
+    padding: 2%;
+    font-size: 70%;
+    height: 83%;
+    margin-right: 10px !important;
+  }
+}
+
+@media (max-width: 574px) {
+  .form-btns {
+    margin-top: 0.2rem !important;
+  }
+}
+
+@media (max-width: 590px) {
+  .logo-img {
+    width: 83px;
+  }
+  .hamburg {
+    padding: 5%;
+    height: 36px;
+    margin-left: 0%;
+    font-size: 1.1rem;
+    width: 39%;
+    margin-top: 6%;
+  }
+  .nav-icon {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+  }
+  .form-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+  }
+  .nav-icon {
+    font-size: 0.9rem;
+  }
+  .hamburg-icon {
+    font-size: 80%;
+  }
+  .form-hamburg {
+    margin-top: 2%;
+  }
+}
+
 .btn-color {
   border-color: #1ed660;
   border-radius: 7px;
@@ -40,20 +148,16 @@ a:hover {
 @media (max-width: 992px) {
   .form-hamburg {
     display: flex;
-    justify-content: space-between;
+    position: absolute;
+    right: 20px;
+    top: 0;
   }
+  .hamburg {
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
+
   .form-btns {
     margin-right: 5px;
   }
 }
-@media (max-width: 574px) {
-  .hamburg {
-    height: 3rem;
-    margin-top: 4%;
-  }
-  .signup {
-    margin-right: 5px;
-
-  }
-}
-

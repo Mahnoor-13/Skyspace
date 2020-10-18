@@ -7,7 +7,7 @@ const Home = (props) => {
       <div className="main-back">
         <div className="whyskyspace-div">
           <h2 className="whyskyspaces">Why Skyspaces?</h2>
-          <h5 className="my-3 skydpace-paragraph color-h5">
+          <h5 className="my-3 skyspace-paragraph color-h5">
             No more manipulation, distraction, polarization on the internet.
           </h5>
           <h5 className="whyskyspace-heading color-h5">

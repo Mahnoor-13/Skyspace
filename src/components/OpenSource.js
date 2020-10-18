@@ -42,7 +42,7 @@ const OpenSource = (props) => {
                           src={require("../images/laptop.png")}
                         />
    
-                        <h1 className="open-heading">open</h1>
+                        <h1 className="open-heading">Open</h1>
                         <h5 className="my-3 open">
                           SkySpce provides simple and intuitive interface to store
                           & manage your data, services and interactions

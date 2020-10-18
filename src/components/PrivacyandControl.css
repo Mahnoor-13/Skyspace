@@ -1,5 +1,6 @@
 .privacy-back {
   background-color: #ff3d3d;
+  margin-top: 6%;
 }
 .privacy-img {
   border-radius: 100%;
@@ -68,4 +69,53 @@
     text-align: center;
     color: white;
   }
+}
+
+@media (max-width: 320px) {
+  .privacy-img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border-bottom-right-radius: 0;
+    background: white;
+  }
+}
+
+@media (max-width: 590px) {
+  .privacy-heading {
+    font-size: 1.6rem;
+  }
+  .privacy2 {
+    font-size: 0.9rem;
+  }
+  .privacy-img{
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    border-bottom-right-radius: 0;
+    background: white;
+  }
+}
+
+
+@media(max-width: 395px) {
+  .privacy-img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    border-bottom-right-radius: 0;
+    background: white;
+}
+}
+
+
+@media(max-width: 445px) {
+  .privacy-img2 {
+    padding-top: 23%;
+  }
+
+  /* .privacy-img {
+    width: 250px;
+    height: 250px;
+  } */
 }
