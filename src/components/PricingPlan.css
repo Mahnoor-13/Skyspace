@@ -22,7 +22,7 @@
 .pricing-heading {
   text-align: center;
   margin: 4%;
-  color: #32cd32;
+  color: #1ed660;
 }
 .card-text-pricing {
   font-size: 12px;
@@ -37,13 +37,13 @@
   line-height: 27px;
 }
 .card1-pricing {
-  border-block-start: 5px solid red;
+  border-block-start: 5px solid #ff3d3d;
 }
 .card2-pricing {
-  border-block-start: 5px solid yellow;
+  border-block-start: 5px solid #ffbb00;
 }
 .card3-pricing {
-  border-block-start: 5px solid blue;
+  border-block-start: 5px solid #38b6ff;
 }
 .month {
   font-size: 0.9rem;
@@ -62,7 +62,9 @@
 }
 
 @media (max-width: 831px) {
-  .card3-pricing {
+
+
+  .card2-pricing {
     margin-top: 5%;
     margin: 6%;
   }

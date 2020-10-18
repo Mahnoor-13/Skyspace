@@ -6,29 +6,32 @@ export const Footer = () => {
     <div className="footer-back ">
       <div className="all-divs-footer">
         <div>
-          <img src={require("../images/logo.png")} width="150" />
+          <img
+            className="footer-img-cursor"
+            src={require("../images/logo.png")}
+            width="150"
+          />
         </div>
-
-        <div className="para-footer">
+        <div className="para-footer ">
           {" "}
-          <p className="main-footer">SKYSPACES</p>
-          <p className="storage">Storage</p>
-          <p className="storage">Pricing</p>
-          <p className="storage">Development community</p>
-          <p className="storage">space</p>
+          <p className="main-footer footer-img-cursor ">SKYSPACES</p>
+          <p className="storage footer-img-cursor">Storage</p>
+          <p className="storage footer-img-cursor">Pricing</p>
+          <p className="storage footer-img-cursor">Development community</p>
+          <p className="storage footer-img-cursor">space</p>
         </div>
-        <div className="para-footer para-footer-about">
-          <p className="main-footer">ABOUT</p>
-          <p className="storage">Blog</p>
-          <p className="storage">Terms of service</p>
-          <p className="storage">Privacy and policy</p>
+        <div className="para-footer para-footer-about footer-img-cursor">
+          <p className="main-footer footer-img-cursor">ABOUT</p>
+          <p className="storage footer-img-cursor">Blog</p>
+          <p className="storage footer-img-cursor">Terms of service</p>
+          <p className="storage footer-img-cursor">Privacy and policy</p>
         </div>
-        <div className="para-footer para-footer-follow">
-          <p className="main-footer">FOLLOW US</p>
-          <p className="storage">Twitter</p>
-          <p className="storage">Github</p>
-          <p className="storage">Mastodon</p>
-          <p className="storage">Discord</p>
+        <div className="para-footer para-footer-follow footer-img-cursor" >
+          <p className="main-footer footer-img-cursor">FOLLOW US</p>
+          <p className="storage footer-img-cursor">Twitter</p>
+          <p className="storage footer-img-cursor">Github</p>
+          <p className="storage footer-img-cursor">Mastodon</p>
+          <p className="storage footer-img-cursor">Discord</p>
         </div>
       </div>
 
@@ -39,7 +42,7 @@ export const Footer = () => {
 
         <form class="form-inline my-2 my-lg-0 footer-form">
           <input
-            class="form-control mr-sm-2 input-foot"
+            class=" mr-sm-2 input-foot"
             type="search"
             placeholder="Search"
             aria-label="Search"
@@ -55,13 +58,30 @@ export const Footer = () => {
       <hr />
       <div className="footer-followon ">
         <div>
-          <div className="storage"> &copy;2020 Skynet Hub Technologies. All rights reserved</div>
+          <div className="storage">
+            {" "}
+            &copy;2020 Skynet Hub Technologies. All rights reserved
+          </div>
         </div>
-        <div >
-            <img src={require("../images/github.png")} />
-            <img src={require("../images/mastodon.png")} />
-            <img src={require("../images/mastodon.png")} />
-            <img src={require("../images/github.png")} />
+        <div>
+       
+          <img
+            className="footer-images-bottom"
+            src={require("../images/github.png")}
+          />
+         
+          <img
+            className="footer-images-bottom"
+            src={require("../images/mastodon.png")}
+          />
+          <img
+            className="footer-images-bottom"
+            src={require("../images/github.png")}
+          />
+          <img className="footer-images-bottom"
+          src={require("../images/mastodon.png")}
+        />
+          
         </div>
       </div>
     </div>

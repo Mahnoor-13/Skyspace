@@ -9,12 +9,16 @@
 }
 
 .whyskyspaces {
-  color: #32cd32;
+  color: #1ed660;
 }
 .color-h5 {
   color: rgba(0, 0, 0, 0.5);
 }
-
+@media(max-width: 590px) {
+  .color-h5 {
+    font-size: 1.1rem;
+  }
+}
 @media (max-width: 992px) {
   .color-h5 {
     text-align: center;

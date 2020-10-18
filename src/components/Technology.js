@@ -33,7 +33,7 @@ const Technology = (props) => {
                        src={require("../images/laptop.png")}
                      />
 
-                     <h1 className="technology-heading">technology</h1>
+                     <h1 className="technology-heading">Technology</h1>
                      <h5 className="my-3 technology">
                        SkySpce provides simple and intuitive interface to store
                        & manage your data, services and interactions

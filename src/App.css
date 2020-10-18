@@ -1,16 +1,22 @@
 @media (max-width: 640px) {
   .App {
-    width: 640px;
+    /* width: 640px; */
     overflow-x: hidden;
   }
 }
 
 @media (max-width: 600px) {
   .App {
-    width: 600px;
+    /* width: 600px; */
     overflow-x: hidden;
   }
 }
 .App {
   overflow-x: hidden;
+}
+
+@media(max-width: 320px) {
+  .App {
+    /* width: 495px; */
+  }
 }
