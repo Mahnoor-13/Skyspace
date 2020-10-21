@@ -26,7 +26,7 @@ export const Footer = () => {
           <p className="storage footer-img-cursor">Terms of service</p>
           <p className="storage footer-img-cursor">Privacy and policy</p>
         </div>
-        <div className="para-footer para-footer-follow footer-img-cursor" >
+        <div className="para-footer para-footer-follow footer-img-cursor">
           <p className="main-footer footer-img-cursor">FOLLOW US</p>
           <p className="storage footer-img-cursor">Twitter</p>
           <p className="storage footer-img-cursor">Github</p>
@@ -35,8 +35,42 @@ export const Footer = () => {
         </div>
       </div>
 
+      {/*************************For Responsive****************/}
+
+      <div className="footer-responsive">
+        <div>
+          <img
+            className="footer-img-cursor2"
+            src={require("../images/logo.png")}
+            width="150"
+          />
+        </div>
+        <div className="all-divs-footer2">
+          <div className="para-footer sky-space">
+            <p className="main-footer footer-img-cursor2 ">SKYSPACES</p>
+            <p className="storage footer-img-cursor2">Storage</p>
+            <p className="storage footer-img-cursor2">Pricing</p>
+            <p className="storage footer-img-cursor2">Development community</p>
+            <p className="storage footer-img-cursor2">space</p>
+
+            <p className="main-footer footer-img-cursor2">ABOUT</p>
+            <p className="storage footer-img-cursor2">Blog</p>
+            <p className="storage footer-img-cursor2">Terms of service</p>
+            <p className="storage footer-img-cursor2">Privacy and policy</p>
+          </div>
+          <div className="para-footer para-footer-about footer-img-cursor2">
+            <p className="main-footer footer-img-cursor-follow">FOLLOW US</p>
+            <p className="storage footer-img-cursor2">Twitter</p>
+            <p className="storage footer-img-cursor2">Github</p>
+            <p className="storage footer-img-cursor2">Mastodon</p>
+            <p className="storage footer-img-cursor2">Discord</p>
+          </div>
+        </div>
+      </div>
+      {/***************************************  ********************************/}
+
       <div className="footer-input">
-        <p className="storage">
+        <p className="storage email">
           Share your email address for staying in touch with us
         </p>
 
@@ -58,30 +92,42 @@ export const Footer = () => {
       <hr />
       <div className="footer-followon ">
         <div>
-          <div className="storage">
+          <div className="storage all-right-reserved">
             {" "}
             &copy;2020 Skynet Hub Technologies. All rights reserved
           </div>
         </div>
-        <div>
-       
-          <img
-            className="footer-images-bottom"
-            src={require("../images/github.png")}
-          />
-         
-          <img
-            className="footer-images-bottom"
-            src={require("../images/mastodon.png")}
-          />
-          <img
-            className="footer-images-bottom"
-            src={require("../images/github.png")}
-          />
-          <img className="footer-images-bottom"
-          src={require("../images/mastodon.png")}
-        />
+        <div className="all-images-footor-bottom">
+          <div>
+            {" "}
+            <img
+              className="footer-images-bottom"
+              src={require("../images/github.png")}
+            />
+          </div>
+          <div>
+            {" "}
+            <img
+              className="footer-images-bottom img-twitter"
+              src={require("../images/twit.png")}
+            />
+          </div>
           
+          <div>
+            {" "}
+            <img
+              className="footer-images-bottom"
+              src={require("../images/mastodon.png")}
+            />
+          </div>
+
+          <div>
+            {" "}
+            <img
+              className="footer-images-bottom"
+              src={require("../images/github.png")}
+            />
+          </div>
         </div>
       </div>
     </div>
