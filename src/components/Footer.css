@@ -1,5 +1,5 @@
 .footer-back {
-  background-color: rgb(52, 54, 68);
+  background-color: #252f3f;
 }
 .all-divs-footer {
   display: flex;
@@ -32,6 +32,9 @@
   background-clip: padding-box;
   border: 1px solid #ced4da;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color: #2e3746 !important;
+  border-color: #2e3746 !important;
+  height: 44px;
 }
 
 .footer-form {
@@ -41,6 +44,8 @@
   border-radius: 20px;
   background-color: #1ed660;
   color: white;
+  width: 22%;
+  height: 44px;
 }
 .footer-subscribe:hover {
   background-color: white;
@@ -92,16 +97,56 @@
     width: 100%;
   }
   .storage {
-    font-size: 0.7rem;
+    font-size: 0.7rem!important;
   }
-  .footer-images-bottom{
-    width: 25%!important;
+  .footer-images-bottom {
+    width: 25% !important;
   }
 }
-.footer-img-cursor{
+.footer-img-cursor {
   cursor: pointer;
 }
 .twitter-logo {
   border-radius: 50%;
   width: 8%;
+}
+
+@media (max-width: 800px) {
+  .footer-subscribe {
+    width: 27%;
+  }
+}
+
+@media (max-width: 659px) {
+  .footer-subscribe {
+    width: 35%;
+  }
+}
+@media (max-width: 507px) {
+  .footer-subscribe {
+    width: 40%;
+  }
+}
+
+@media (max-width: 430px) {
+  .footer-subscribe {
+    width: 45%;
+  }
+
+  .storage {
+    font-size: 0.8rem!important;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer-subscribe {
+    width: 55%;
+  }
+}
+
+
+@media (max-width: 320px) {
+  .footer-subscribe {
+    width: 65%;
+  }
 }

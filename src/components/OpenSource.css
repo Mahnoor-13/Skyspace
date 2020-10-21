@@ -16,10 +16,14 @@
   width: 50%;
 }
 .lock {
-  width: 10%;
+  width: 15%;
 }
 .img-div-open {
-  padding: 3% 17px 6%;
+  padding: 3% 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 .open-heading {
   color: white;
@@ -38,6 +42,7 @@
   .img-div-open {
     display: flex;
     justify-content: center;
+    padding: 6% 0 8%;
   }
 }
 
@@ -100,22 +105,32 @@
   }
 }
 
-
-@media(max-width: 395px) {
+@media (max-width: 395px) {
   .open-img {
     border-radius: 100%;
     width: 200px;
     height: 200px;
     border-bottom-left-radius: 0;
     background: white;
+  }
 }
-}
-@media(max-width: 445px) {
+@media (max-width: 445px) {
   .open-img2 {
     padding-top: 23%;
   }
   /* .technology-img {
     width: 250px;
     height: 250px;
+  } */
+}
+
+
+@media (max-width: 1149px) {
+  .open-img2 {
+    padding-top: 25%;
+  }
+  /* .open-img{
+    width: 300px;
+    height: 300px;
   } */
 }

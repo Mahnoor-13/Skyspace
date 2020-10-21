@@ -48,6 +48,9 @@ a:hover {
   .form-hamburg {
     display: flex;
   }
+  .hamburg {
+    display: none;
+  }
 }
 @media (max-width: 574px) {
   .hamburg {
@@ -56,20 +59,19 @@ a:hover {
   }
 }
 
-@media (max-width: 590px) {
+@media (max-width: 600px) {
   .btn-color {
     padding: 4%;
     font-size: 70%;
     margin-right: 7px;
-    /* eight: 83%; */
-    /* margin-right: 2px; */
-    /* width: 123%; */
-    height: 78%;
+    height: 70%;
+    width: 55px;
   }
   .signup {
     padding: 2%;
     font-size: 70%;
-    height: 83%;
+    height: 70%;
+    width: 55px;
     margin-right: 10px !important;
   }
 }
@@ -82,7 +84,10 @@ a:hover {
 
 @media (max-width: 590px) {
   .logo-img {
-    width: 83px;
+    width: 120px;
+  }
+  .form-btns {
+    margin-left: 5%;
   }
   .hamburg {
     padding: 5%;
@@ -156,7 +161,5 @@ a:hover {
     margin-bottom: 5%;
   }
 
-  .form-btns {
-    margin-right: 5px;
-  }
+
 }

@@ -55,6 +55,7 @@
 @media (max-width: 550px) {
   .skydpace-provivides {
     font-size: 1.1rem;
+    margin: -6%;
   }
 }
 @media (max-width: 765px) {
@@ -71,6 +72,8 @@
     display: block;
     color: #1ed660;
     text-align: center;
+
+    margin-top: 10%;
   }
   .own-your-space {
     display: none;
@@ -84,7 +87,7 @@
 }
 
 .all-home-padding {
-  padding: 3%;
+  padding: 7% 5%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -120,21 +123,19 @@
 }
 
 @media (max-width: 412px) {
-  .give-it-try{
+  .give-it-try {
     width: 55%;
   }
 }
 
 @media (max-width: 276px) {
-  .give-it-try{
+  .give-it-try {
     width: 65%;
   }
 }
 
-
-
-@media(max-width: 590px) {
-  .own-your-space2{
+@media (max-width: 590px) {
+  .own-your-space2 {
     font-size: 1.7rem;
   }
 }

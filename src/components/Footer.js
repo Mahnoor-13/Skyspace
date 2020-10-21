@@ -42,7 +42,7 @@ export const Footer = () => {
 
         <form class="form-inline my-2 my-lg-0 footer-form">
           <input
-            class=" mr-sm-2 input-foot"
+            class=" mr-sm-2 input-foot input"
             type="search"
             placeholder="Search"
             aria-label="Search"

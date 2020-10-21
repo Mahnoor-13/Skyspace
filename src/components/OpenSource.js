@@ -39,7 +39,7 @@ const OpenSource = (props) => {
                         <div className=" lock-open-heading2">
                         <img
                           className="lock"
-                          src={require("../images/laptop.png")}
+                          src={require("../images/opensource.png")}
                         />
    
                         <h1 className="open-heading">Open</h1>
