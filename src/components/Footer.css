@@ -95,14 +95,24 @@
   .storage {
     font-size: 0.7rem;
   }
-  .footer-images-bottom{
-    width: 25%!important;
+  .footer-images-bottom {
+    width: 25% !important;
   }
 }
-.footer-img-cursor{
+.footer-img-cursor {
   cursor: pointer;
 }
 .twitter-logo {
   border-radius: 50%;
   width: 8%;
+}
+
+@media (max-width: 831px) {
+  .footer-followon .footer-images-bottom {
+    width: 12px;
+  }
+  .footer-followon .storage{
+    width: 15rem;
+  }
+
 }

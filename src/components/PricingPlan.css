@@ -62,10 +62,12 @@
 }
 
 @media (max-width: 831px) {
-
-
-  .card2-pricing {
+  .card-pricing, .card2-pricing {
     margin-top: 5%;
     margin: 6%;
   }
+  .footer-images-bottom{
+    width: 2rem;
+  }
+  
 }

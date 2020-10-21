@@ -58,8 +58,7 @@ export const Footer = () => {
       <hr />
       <div className="footer-followon ">
         <div>
-          <div className="storage">
-            {" "}
+          <div className="storage 2020-copyrights">
             &copy;2020 Skynet Hub Technologies. All rights reserved
           </div>
         </div>
