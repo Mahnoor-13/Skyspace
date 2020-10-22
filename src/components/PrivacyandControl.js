@@ -20,7 +20,9 @@ const PrivacyandControl = (props) => {
                       <h1 className="privacy-heading">Privacy and Control</h1>
                       <h5 className="my-3 privacy">
                         SkySpce provides simple and intuitive interface to store
-                        & manage your data, services and interactions
+                        & manage your data, services and interactions SkySpce
+                        provides simple and intuitive interface to store &
+                        manage your data, services and interactions
                       </h5>
                     </div>
 
@@ -35,7 +37,9 @@ const PrivacyandControl = (props) => {
                       <h1 className="privacy-heading">Privacy and Control</h1>
                       <h5 className="my-3 privacy2">
                         SkySpce provides simple and intuitive interface to store
-                        & manage your data, services and interactions
+                        & manage your data, services and interactions SkySpce
+                        provides simple and intuitive interface to store &
+                        manage your data, services and interactions
                       </h5>
                     </div>
 

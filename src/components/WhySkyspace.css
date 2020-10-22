@@ -14,7 +14,7 @@
 .color-h5 {
   color: rgba(0, 0, 0, 0.5);
 }
-@media(max-width: 590px) {
+@media (max-width: 590px) {
   .color-h5 {
     font-size: 1.1rem;
   }

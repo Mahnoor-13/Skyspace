@@ -6,9 +6,9 @@ const TrySkySpace = (props) => {
     <>
       <div className="try-back">
           <div>
-            <h2 className="heading-try">Try SkySpace now!</h2>
+            <h2 className="heading-try">Try SkySpaces now!</h2>
           </div>
-          <div>
+          <div className="tryskyspace-btn">
             {" "}
             <button class="btn get-started" type="submit">
               Get Started

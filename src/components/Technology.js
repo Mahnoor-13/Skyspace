@@ -21,6 +21,8 @@ const Technology = (props) => {
                       <h5 className="my-3 technology">
                         SkySpce provides simple and intuitive interface to store
                         & manage your data, services and interactions
+                        SkySpce provides simple and intuitive interface to store
+                        & manage your data, services and interactions
                       </h5>
                     </div>
 
@@ -37,6 +39,10 @@ const Technology = (props) => {
                      <h5 className="my-3 technology">
                        SkySpce provides simple and intuitive interface to store
                        & manage your data, services and interactions
+                       SkySpce provides simple and intuitive interface to store
+                       & manage your data, services and interactions
+
+                       
                      </h5>
                    </div>
                     

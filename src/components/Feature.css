@@ -1,4 +1,4 @@
-.card {
+.card-future {
   width: 12rem;
 }
 .all-cards {
@@ -48,7 +48,7 @@
     margin-top: 5%;
   }
 }
-@media (max-width: 830px) {
+@media (max-width: 759px) {
   .all-cards-bottom {
     width: 100%;
     margin: 0;

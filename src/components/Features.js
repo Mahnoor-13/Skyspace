@@ -9,7 +9,7 @@ const Home = (props) => {
           <h2 className="features-heading">Features</h2>
         </div>
         <div className="all-cards">
-          <div class=" card card1">
+          <div class=" card card card-future1">
             <div class="card-body">
               <img src={require("../images/file.png")} />
 
@@ -17,7 +17,7 @@ const Home = (props) => {
             </div>
           </div>
 
-          <div class="card card2">
+          <div class="card card2 card-future">
             <div class="card-body">
               <img src={require("../images/server.png")} />
 
@@ -25,7 +25,7 @@ const Home = (props) => {
             </div>
           </div>
 
-          <div class="card card3">
+          <div class="card card3 card-future">
             <div class="card-body">
               <img src={require("../images/connection.png")} />
 
@@ -33,7 +33,7 @@ const Home = (props) => {
             </div>
           </div>
 
-          <div class="card card4">
+          <div class="card card4 card-future">
             <div class="card-body">
               <img src={require("../images/laptop1.png")} />
 
@@ -43,7 +43,7 @@ const Home = (props) => {
         </div>
 
         <div className="all-cards-bottom">
-          <div class="card card3">
+          <div class="card card3 card-future">
             <div class="card-body">
               <img src={require("../images/refresh.png")} />
 
@@ -51,7 +51,7 @@ const Home = (props) => {
             </div>
           </div>
 
-          <div class="card card2">
+          <div class="card card2 card-future">
             <div class="card-body">
               <img src={require("../images/data.png")} />
 

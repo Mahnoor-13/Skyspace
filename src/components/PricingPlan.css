@@ -2,13 +2,14 @@
   background-color: #edfcf3;
   padding: 1%;
 }
-.card {
+.card-pricing {
   width: 12rem;
 }
 .all-cards-pricing {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 5%;
 }
 
 .all-cards-bottom-pricing {
@@ -61,13 +62,22 @@
   }
 }
 
-@media (max-width: 831px) {
-  .card-pricing, .card2-pricing {
+@media (max-width: 616px) {
+  .card2-pricing {
     margin-top: 5%;
-    margin: 6%;
+    /* margin: 6%; */
+  }
+
+}
+
+@media(max-width: 927px) {
+
+  .card3-pricing {
+    margin-top: 5%;
   }
   .footer-images-bottom{
     width: 2rem;
   }
   
 }
+
