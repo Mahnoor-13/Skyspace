@@ -5,6 +5,10 @@
 .logo {
   margin: 0 2%;
 }
+.nav-items {
+  font-size: 1.6rem;
+  margin: 0% 4%;
+}
 .home {
   color: #1ed660 !important;
 }
@@ -17,11 +21,19 @@
 .btn-color {
   border-color: #1ed660;
   border-radius: 7px;
-  color: #1ed660;
+  color: white;
+  background-color: #1ed660;
   margin-right: 8px;
+  width: 7rem;
+  padding: 3%;
 }
+
 .btn-color-signup {
   margin-right: 8px;
+  border-width: 2px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-size: 18px;
 }
 .btn-color:hover {
   background-color: #1ed660;
@@ -42,6 +54,34 @@
 }
 a:hover {
   color: #1ed660 !important;
+}
+.logo-img {
+  width: 14rem;
+}
+
+.btn-color-signup {
+  /* background-color: #1ed660; */
+  background-color: white;
+
+  color: #1ed660;
+  border-radius: 7px;
+  border-color: #1ed660;
+  width: 7rem;
+  padding: 3%;
+}
+.btn-color-signup:hover {
+  border-color: #1ed660;
+  color: #1ed660;
+  background-color: white;
+}
+
+.form-hamburg {
+  width: 21%;
+}
+
+.form-btns {
+  display: flex;
+  justify-content: space-around;
 }
 
 @media (max-width: 992px) {
@@ -124,28 +164,17 @@ a:hover {
   }
 }
 
-.btn-color {
+/* .btn-color {
   border-color: #1ed660;
   border-radius: 7px;
   color: #1ed660;
-}
+} */
 .btn-color:hover {
   background-color: #1ed660;
   color: white;
   border-color: #1ed660;
 }
 
-.btn-color-signup {
-  background-color: #1ed660;
-  color: white;
-  border-radius: 7px;
-  border-color: #1ed660;
-}
-.btn-color-signup:hover {
-  border-color: #1ed660;
-  color: #1ed660;
-  background-color: white;
-}
 a:hover {
   color: #1ed660 !important;
 }
@@ -161,6 +190,4 @@ a:hover {
     margin-top: 4%;
     margin-bottom: 5%;
   }
-
-
 }

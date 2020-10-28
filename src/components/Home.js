@@ -47,10 +47,12 @@ const Home = (props) => {
                   </button>
                 </div>
               </div>
-                <div className="col-lg-6  order-lg-2 vector-img-div">
+                <div className="col-lg-6  order-lg-2">
+                {/* // vector-img-div"> */}
                   <div className="img-div">
                     <img
-                      src={require("../images/Vector.png")}
+                      src={require("../images/girlimage.jpg")}
+                      // src={require("../images/Vector.png")}
                       className="img-vector"
                       alt="home img"
                     />

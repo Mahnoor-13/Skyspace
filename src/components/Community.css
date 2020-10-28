@@ -5,7 +5,7 @@
   position: absolute;
   top: 33%;
   color: #1ed660;
-  width: 39%;
+  width: 36%;
   letter-spacing: 2px;
 }
 .layer {
@@ -30,8 +30,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 55px;
-  width: 9%;
+  height: 50px;
+  width: 50px;
 }
 .arrow:hover {
   background-color: #1ed660;
@@ -72,6 +72,8 @@
   font-weight: bold;
 }
 .card-border {
+  border: 0;
+  margin: 2%;
   border-radius: 14px;
   /* box-shadow: 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.1); */
   box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.1);
@@ -181,6 +183,8 @@
 }
 
 .card-border-margin {
+  width: 88%;
+  margin-left: 24%;
 }
 
 /* @media (max-width: 496px) {
@@ -191,7 +195,7 @@
 } */
 
 .arrow-back {
-  font-size: 1.9rem !important;
+  font-size: 1.5rem !important;
 }
 
 .arrow-right {
@@ -234,8 +238,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55px;
-    width: 50%;
+    height: 50px;
+    width: 50px;
   }
   .arrow2:hover {
     background-color: #1ed660;
@@ -315,7 +319,7 @@
 @media(max-width: 1066px) {
   .arrow {
 
-    height: 55px;
-    width: 11%;
+    height: 50px;
+    width: 50px;
   }
 }

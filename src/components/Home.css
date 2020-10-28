@@ -4,10 +4,11 @@
 }
 
 .img-vector {
-  width: 117%;
+  /* width: 117%; */
+  width: 103%;
 }
 .img-div {
-  padding: 25% 17% 0;
+  /* padding: 25% 17% 0; */
 }
 
 .give-it-try {
@@ -32,13 +33,13 @@
 
 @media (max-width: 1075px) {
   .give-it-try {
-    height: 30%;
+    /* height: 30%; */
   }
 }
 
 @media (max-width: 990px) {
   .give-it-try {
-    height: 20%;
+    /* height: 20%; */
     width: 30%;
   }
   .flex {
@@ -48,7 +49,7 @@
 
 @media (max-width: 766px) {
   .give-it-try {
-    height: 20%;
+    /* height: 20%; */
     width: 30%;
   }
 }
