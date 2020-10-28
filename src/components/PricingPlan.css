@@ -24,6 +24,7 @@
   text-align: center;
   margin: 4%;
   color: #1ed660;
+  font-size: 2.8rem;
 }
 .card-text-pricing {
   font-size: 12px;
@@ -35,26 +36,34 @@
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 6%;
-  line-height: 27px;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 2%;
+}
+.dollor {
+  font-size: 3.5rem;
+  margin-top: 10%;
 }
 .card1-pricing {
-  border-block-start: 5px solid #ff3d3d;
+  border-block-start: 10px solid #ff3d3d;
 }
 .card2-pricing {
-  border-block-start: 5px solid #ffbb00;
+  border-block-start: 10px solid #ffbb00;
 }
 .card3-pricing {
-  border-block-start: 5px solid #38b6ff;
+  border-block-start: 10px solid #38b6ff;
 }
 .month {
   font-size: 0.9rem;
 }
 .card-pricing {
-  width: 17rem;
+  width: 18rem;
   background-color: white;
+  border-radius: 10px;
 }
 .pricing-para {
   margin-top: 15%;
+  margin-right: 8%;
 }
 @media (max-width: 461px) {
   .card-pricing {
@@ -67,13 +76,17 @@
     margin-top: 5%;
     /* margin: 6%; */
   }
-
 }
 
-@media(max-width: 927px) {
-
+@media (max-width: 927px) {
   .card3-pricing {
     margin-top: 5%;
   }
+  .footer-images-bottom {
+    /* width: 2rem; */
+  }
 }
 
+.basic {
+  margin-top: 5%;
+}

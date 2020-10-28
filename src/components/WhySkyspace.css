@@ -5,22 +5,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3%;
+  padding: 4%;
 }
 
 .whyskyspaces {
   color: #1ed660;
 }
-.color-h5 {
-  color: rgba(0, 0, 0, 0.5);
+
+.whyskyspaces2 {
+  font-size: 2.9rem;
+  letter-spacing: 1px;
+}
+.whyskyspaces3 {
+  font-size: 1.5rem;
+  position: relative;
+  top: 26px;
+}
+.color-h3 {
+  color: #c0c0c0;
+  font-weight: 400;
 }
 @media (max-width: 590px) {
-  .color-h5 {
+  .color-h3 {
     font-size: 1.1rem;
   }
 }
 @media (max-width: 992px) {
-  .color-h5 {
+  .color-h3 {
     text-align: center;
   }
 }

@@ -6,14 +6,14 @@ const Home = (props) => {
     <>
       <div>
         <div>
-          <h2 className="features-heading">Features</h2>
+          <h1 className="features-heading">Features</h1>
         </div>
         <div className="all-cards">
-          <div class=" card card card-future1">
+          <div class=" card card1 card-future1">
             <div class="card-body">
               <img src={require("../images/file.png")} />
 
-              <p class="card-text">Content UploadDownload</p>
+              <p class="card-text">Content Upload/Download</p>
             </div>
           </div>
 
@@ -21,7 +21,7 @@ const Home = (props) => {
             <div class="card-body">
               <img src={require("../images/server.png")} />
 
-              <p class="card-text">Content UploadDownload</p>
+              <p class="card-text">Space Management</p>
             </div>
           </div>
 
@@ -29,7 +29,7 @@ const Home = (props) => {
             <div class="card-body">
               <img src={require("../images/connection.png")} />
 
-              <p class="card-text">Content UploadDownload</p>
+              <p class="card-text">Private File Sharing</p>
             </div>
           </div>
 
@@ -37,7 +37,7 @@ const Home = (props) => {
             <div class="card-body">
               <img src={require("../images/laptop1.png")} />
 
-              <p class="card-text">Content UploadDownload</p>
+              <p class="card-text"> Public File Sharing</p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ const Home = (props) => {
             <div class="card-body">
               <img src={require("../images/refresh.png")} />
 
-              <p class="card-text">Content UploadDownload</p>
+              <p class="card-text"> Backup</p>
             </div>
           </div>
 
@@ -55,7 +55,7 @@ const Home = (props) => {
             <div class="card-body">
               <img src={require("../images/data.png")} />
 
-              <p class="card-text">Content UploadDownload</p>
+              <p class="card-text"> Activity History</p>
             </div>
           </div>
         </div>

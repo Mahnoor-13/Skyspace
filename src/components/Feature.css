@@ -5,36 +5,39 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  margin: 5%;
 }
 
 .all-cards-bottom {
   display: flex;
   justify-content: space-evenly;
   width: 53%;
-  margin: 3% 23%;
-  flex-wrap: wrap;
+  margin: -1% 25%;  flex-wrap: wrap;
 }
 
 .features-heading {
   text-align: center;
-  margin: 4%;
+  margin: 2%;
   color: #1ed660;
+  font-size: 2.9rem;
 }
 .card-text {
-  font-size: 12px;
-  margin-top: 15%;
+  margin-top: 22%;
+  font-size: 0.8rem;
 }
 .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 7px 7px 10px 10px;
 }
 .card1 {
   border-block-start: 5px solid #1ed660;
 }
 .card2 {
   border-block-start: 5px solid #ff3d3d;
+  /* border: 0px; */
 }
 .card3 {
   border-block-start: 5px solid #38b6ff;
@@ -54,5 +57,3 @@
     margin: 0;
   }
 }
-
-

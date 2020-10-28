@@ -8,8 +8,8 @@ const OpenSource = (props) => {
         <div className="open-heading-display">
           <section id="header" className="">
             <div className="container-fluid ">
-              <div className="row">
-                <div className="col-9 mx-auto">
+              <div className="row row-open">
+                <div className="col-11 mx-auto">
                   <div className="row row-wrap-open">
                     <div className="col-lg-6 img-div-open   ">
                       <div className="open-img">
@@ -20,7 +20,7 @@ const OpenSource = (props) => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6 lock-open-heading">
+                    <div className="col-md-5 lock-open-heading">
                       <img
                         className="lock"
                         src={require("../images/opensource.png")}

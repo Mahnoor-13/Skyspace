@@ -8,8 +8,8 @@ const PrivacyandControl = (props) => {
         <div className="privacy-heading-display">
           <section id="header" className="">
             <div className="container-fluid ">
-              <div className="row">
-                <div className="col-9 mx-auto">
+              <div className="row row2">
+                <div className="col-11 mx-auto">
                   <div className="row ">
                     <div className="col-md-6 lock-privacy-heading">
                       <img
@@ -19,10 +19,11 @@ const PrivacyandControl = (props) => {
 
                       <h1 className="privacy-heading">Privacy and Control</h1>
                       <h5 className="my-3 privacy">
-                        SkySpce provides simple and intuitive interface to store
-                        & manage your data, services and interactions SkySpce
-                        provides simple and intuitive interface to store &
-                        manage your data, services and interactions
+                        Everything stored in your Space is fully encrypted No
+                        one can access your data or open your encrypted files.
+                        Privacy is controlled by your private key which is owned
+                        by you . You control who can view your data, services
+                        and interactions and how much
                       </h5>
                     </div>
 

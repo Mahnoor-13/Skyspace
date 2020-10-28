@@ -6,7 +6,7 @@ import FormatQuoteIcon from "@material-ui/icons/FormatQuote";
 
 import ReactStars from "react-stars";
 
-const Technology = (props) => {
+const Community = (props) => {
   return (
     <>
       <div className="community-back">
@@ -14,21 +14,21 @@ const Technology = (props) => {
           <section id="header" className="">
             <div className="container-fluid ">
               <div className="row ">
-                <div className="col-9 mx-auto">
+                <div className="col-10 mx-auto">
                   <div className="row comunity-row ">
+                    {" "}
                     <div className="  community-heading-image">
                       <FormatQuoteIcon className="layer" />
 
                       <h1 className="community-heading">
-                        What the Community is saying
+                        What the <b>Community</b> <br /> is saying
                       </h1>
                     </div>
-
-                    <div className="col-lg-8   ">
+                    <div className="col-lg-8">
                       <section class="pt-5 pb-5">
                         <div class=" container-cards">
                           <div class="row-cards">
-                            <div class="col-10 text-right arrow-display">
+                            <div class="col-9 text-right arrow-display">
                               <a
                                 class="btn btn-primary mb-3 mr-1 arrow arrow-right"
                                 href="#carouselExampleIndicators2"
@@ -46,11 +46,13 @@ const Technology = (props) => {
                                 <ArrowForwardIcon className="arrow-back" />
                               </a>
                             </div>
-                            <div class="col-12 all-columns">
+
+                            <div class=" all-columns">
                               <div
                                 id="carouselExampleIndicators2"
                                 class="carousel slide"
                                 data-ride="carousel"
+                                data-interval="false"
                               >
                                 <div class="carousel-inner carousel-inner1">
                                   <div class="carousel-item active">
@@ -64,6 +66,7 @@ const Technology = (props) => {
                                               src={require("../images/Layer13.png")}
                                             />
                                             <ReactStars
+                                              className="stars"
                                               size={22}
                                               color1={"#1ed660"}
                                               color2={"#1ed660"}
@@ -100,6 +103,7 @@ const Technology = (props) => {
                                               src={require("../images/Layer14.png")}
                                             />
                                             <ReactStars
+                                              className="stars"
                                               size={22}
                                               color1={"#1ed660"}
                                               color2={"#1ed660"}
@@ -134,6 +138,7 @@ const Technology = (props) => {
                                               src={require("../images/Layer13.png")}
                                             />
                                             <ReactStars
+                                              className="stars"
                                               size={22}
                                               color1={"#1ed660"}
                                               color2={"#1ed660"}
@@ -173,6 +178,7 @@ const Technology = (props) => {
                                               src={require("../images/Layer14.png")}
                                             />
                                             <ReactStars
+                                              className="stars"
                                               size={22}
                                               color1={"#1ed660"}
                                               color2={"#1ed660"}
@@ -207,6 +213,7 @@ const Technology = (props) => {
                                               src={require("../images/Layer13.png")}
                                             />
                                             <ReactStars
+                                              className="stars"
                                               size={22}
                                               color1={"#1ed660"}
                                               color2={"#1ed660"}
@@ -241,6 +248,7 @@ const Technology = (props) => {
                                               src={require("../images/Layer14.png")}
                                             />
                                             <ReactStars
+                                              className="stars"
                                               size={22}
                                               color1={"#1ed660"}
                                               color2={"#1ed660"}
@@ -288,8 +296,7 @@ const Technology = (props) => {
                 <div className="col-1 mx-auto">
                   <div className="row comunity-row2 ">
                     <div className="  community-heading-image2">
-                    <FormatQuoteIcon className="layer2" />
-
+                      <FormatQuoteIcon className="layer2" />
 
                       <h1 className="community-heading2">
                         What the Community is saying
@@ -336,6 +343,7 @@ const Technology = (props) => {
                                               src={require("../images/Layer13.png")}
                                             />
                                             <ReactStars
+                                              className="stars"
                                               size={22}
                                               color1={"#1ed660"}
                                               color2={"#1ed660"}
@@ -375,6 +383,7 @@ const Technology = (props) => {
                                               src={require("../images/Layer14.png")}
                                             />
                                             <ReactStars
+                                              className="stars"
                                               size={22}
                                               color1={"#1ed660"}
                                               color2={"#1ed660"}
@@ -420,4 +429,4 @@ const Technology = (props) => {
   );
 };
 
-export default Technology;
+export default Community;

@@ -78,7 +78,7 @@ export const Footer = () => {
           <input
             class=" mr-sm-2 input-foot input"
             type="search"
-            placeholder="Search"
+            placeholder="Email address"
             aria-label="Search"
           />
           <button
@@ -93,28 +93,28 @@ export const Footer = () => {
       <div className="footer-followon ">
         <div>
           <div className="storage all-right-reserved">
-            {" "}
             &copy;2020 Skynet Hub Technologies. All rights reserved
           </div>
         </div>
         <div className="all-images-footor-bottom">
           <div>
-            {" "}
             <img
               className="footer-images-bottom"
               src={require("../images/github.png")}
             />
           </div>
           <div>
-            {" "}
             <img
               className="footer-images-bottom img-twitter"
               src={require("../images/twit.png")}
             />
+            <img
+              className="footer-images-bottom img-twitter"
+              src={require("../images/twitter-logo.png")}
+            />
           </div>
-          
+
           <div>
-            {" "}
             <img
               className="footer-images-bottom"
               src={require("../images/mastodon.png")}
@@ -126,6 +126,10 @@ export const Footer = () => {
             <img
               className="footer-images-bottom"
               src={require("../images/github.png")}
+            />
+            <img
+              className="footer-images-bottom"
+              src={require("../images/discord1.png")}
             />
           </div>
         </div>

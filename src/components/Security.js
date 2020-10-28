@@ -8,8 +8,8 @@ const Security = (props) => {
         <div className="security-heading-display">
           <section id="header" className="">
             <div className="container-fluid ">
-              <div className="row ">
-                <div className="col-9 mx-auto">
+              <div className="row row-sec">
+                <div className="col-11 mx-auto">
                   <div className="row row-wrap">
                     <div className="col-lg-6  img-div-security ">
                       <div className="security-img">
@@ -20,7 +20,7 @@ const Security = (props) => {
                         />
                       </div>
                     </div>
-                    <div className="col-md-6 lock-security-heading">
+                    <div className="col-md-5 lock-security-heading">
                       <img
                         className="lock"
                         src={require("../images/secure.png")}
@@ -28,8 +28,11 @@ const Security = (props) => {
 
                       <h1 className="security-heading">Security</h1>
                       <h5 className="my-3 security">
-                        SkySpce provides simple and intuitive interface to store
-                        & manage your data, services and interactions
+                        Data is stored in secured decentralized cloud storage
+                        powered by Sia blockchain. It is only data storage
+                        platform that's fully decentralized without any
+                        middleman or single failure point. Sia blockchain is
+                        secured by same standards as bitcoin blockchain
                       </h5>
                     </div>
 
@@ -43,8 +46,11 @@ const Security = (props) => {
 
                       <h1 className="security-heading">Security</h1>
                       <h5 className="my-3 security">
-                        SkySpce provides simple and intuitive interface to store
-                        & manage your data, services and interactions
+                        Data is stored in secured decentralized cloud storage
+                        powered by Sia blockchain. It is only data storage
+                        platform that's fully decentralized without any
+                        middleman or single failure point. Sia blockchain is
+                        secured by same standards as bitcoin blockchain
                       </h5>
                     </div>
                   </div>

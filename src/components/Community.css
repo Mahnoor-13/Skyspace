@@ -2,16 +2,18 @@
   float: left;
 }
 .community-heading {
+  font-size: 3.6rem;
   position: absolute;
-  top: 33%;
+  top: 44%;
   color: #1ed660;
-  width: 39%;
+  width: 36%;
+  left: 2%;
   letter-spacing: 2px;
 }
 .layer {
   position: absolute;
-  font-size: 11rem!important;
-  top: 1%;
+  font-size: 16rem!important;
+  top: 7%;
   margin-left: -3%;
   opacity: 0.2;
   color: #1ed660;
@@ -30,8 +32,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 55px;
-  width: 9%;
+  height: 50px;
+  width: 50px;
 }
 .arrow:hover {
   background-color: #1ed660;
@@ -40,16 +42,20 @@
 }
 .layer-image {
   border-radius: 95px;
-  width: 64%;
+  width: 40%;
+  margin-top: 10%;;
 }
 
 /* .card-border-margin {
   margin-left: 7%;
 } */
-
+.stars {
+  margin-top: 5%;
+}
 .layer-image2 {
   border-radius: 95px;
-  width: 61%;
+  width: 40%;
+  margin-top: 10%;
 }
 .community-images-stars {
   display: flex;
@@ -63,6 +69,8 @@
 .card-text-align {
   font-size: 0.9rem;
   margin-top: -8%;
+  line-height: 26px;
+
 }
 .john-bent {
   font-size: 12px;
@@ -72,7 +80,9 @@
   font-weight: bold;
 }
 .card-border {
-  border-radius: 14px;
+  border: 0;
+  margin: 2%;
+  border-radius: 32px;
   /* box-shadow: 0px 0px 0 rgba(0, 0, 0, 0), 0 0px 20px 0 rgba(0, 0, 0, 0.1); */
   box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.1);
 }
@@ -80,8 +90,7 @@
   padding: 8%;
 }
 .card-comunity {
-  width: 16rem !important;
-}
+  width: 19rem !important;}
 
 @media (max-width: 770px) {
   .card-border {
@@ -97,6 +106,9 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  position: relative;
+  right: 4%;
+  padding: 1%;
 }
 @media (max-width: 767px) {
   .arrow {
@@ -181,6 +193,8 @@
 }
 
 .card-border-margin {
+  width: 107%;
+  margin-left: 0%;
 }
 
 /* @media (max-width: 496px) {
@@ -191,7 +205,7 @@
 } */
 
 .arrow-back {
-  font-size: 1.9rem !important;
+  font-size: 1.5rem !important;
 }
 
 .arrow-right {
@@ -234,8 +248,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 55px;
-    width: 50%;
+    height: 50px;
+    width: 50px;
   }
   .arrow2:hover {
     background-color: #1ed660;
@@ -315,7 +329,7 @@
 @media(max-width: 1066px) {
   .arrow {
 
-    height: 55px;
-    width: 11%;
+    height: 50px;
+    width: 50px;
   }
 }
