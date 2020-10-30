@@ -13,7 +13,7 @@ const PrivacyandControl = (props) => {
                   <div className="row ">
                     <div className="col-md-6 lock-privacy-heading">
                       <img
-                        className="lock"
+                        className="lock1"
                         src={require("../images/padlock.png")}
                       />
 

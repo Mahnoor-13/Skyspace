@@ -4,7 +4,7 @@
 .technology-img {
   border-radius: 100%;
   width: 564px;
-  height: 513px;
+  height: 560px;
   border-bottom-right-radius: 0;
   background: white;
   box-shadow: 1px 0 17px -1px #888888;
@@ -36,18 +36,20 @@
 .technology-heading {
   color: white;
   margin-top: 5%;
+  font-size: 3rem;
 }
 .technology {
   color: white;
-  font-size: 18px;
+  font-size: 23px;
   letter-spacing: 1px;
   line-height: 32px;
   font-weight: 400;
+  margin-top: 3rem!important;
 }
 .technology-img2 {
   width: 100%;
-  padding: 11%;
-  padding-top: 20%;
+  padding: 12%;
+  padding-top: 26%;
 }
 @media (max-width: 992px) {
   .img-div-technology {

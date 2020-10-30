@@ -28,30 +28,26 @@ const OpenSource = (props) => {
 
                       <h1 className="open-heading">OpenSource</h1>
                       <h5 className="my-3 open">
+                        SkySpaces code is open sourced. Anyone can review the
+                        code, verify the running version of code with Git commit
+                        run your own version of app
+                      </h5>
+                    </div>
+
+                    {/* FOR RESPONSIVE */}
+
+                    <div className=" lock-open-heading2">
+                      <img
+                        className="lock"
+                        src={require("../images/opensource.png")}
+                      />
+
+                      <h1 className="open-heading">Open</h1>
+                      <h5 className="my-3 open">
                         SkySpce provides simple and intuitive interface to store
                         & manage your data, services and interactions
                       </h5>
                     </div>
-
-
-                        {/* FOR RESPONSIVE */}
-
-                        <div className=" lock-open-heading2">
-                        <img
-                          className="lock"
-                          src={require("../images/opensource.png")}
-                        />
-   
-                        <h1 className="open-heading">Open</h1>
-                        <h5 className="my-3 open">
-                          SkySpce provides simple and intuitive interface to store
-                          & manage your data, services and interactions
-                        </h5>
-                      </div>
-                    
-                      
-
-                      
                   </div>
                 </div>
               </div>

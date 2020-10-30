@@ -12,8 +12,8 @@
 }
 .layer {
   position: absolute;
-  font-size: 16rem!important;
-  top: 7%;
+  font-size: 18rem !important;
+  top: 4%;
   margin-left: -3%;
   opacity: 0.2;
   color: #1ed660;
@@ -42,8 +42,7 @@
 }
 .layer-image {
   border-radius: 95px;
-  width: 40%;
-  margin-top: 10%;;
+  width: 45%;   margin-top: 10%;
 }
 
 /* .card-border-margin {
@@ -54,7 +53,7 @@
 }
 .layer-image2 {
   border-radius: 95px;
-  width: 40%;
+  width: 45%;
   margin-top: 10%;
 }
 .community-images-stars {
@@ -70,7 +69,6 @@
   font-size: 0.9rem;
   margin-top: -8%;
   line-height: 26px;
-
 }
 .john-bent {
   font-size: 12px;
@@ -90,8 +88,8 @@
   padding: 8%;
 }
 .card-comunity {
-  width: 19rem !important;}
-
+  width: 21rem !important;
+}
 @media (max-width: 770px) {
   .card-border {
     margin-left: 17%;
@@ -108,7 +106,7 @@
   justify-content: flex-end;
   position: relative;
   right: 4%;
-  padding: 1%;
+  padding: 3%;
 }
 @media (max-width: 767px) {
   .arrow {
@@ -258,7 +256,8 @@
   .arrow-display2 {
     display: flex;
     flex-direction: row;
-    margin-right: 69%;  }
+    margin-right: 69%;
+  }
 
   .layer2 {
     /* margin-top: 7%;
@@ -267,7 +266,7 @@
     height: 2.5rem;
     opacity: 0.5; */
 
-    font-size: 5rem!important;
+    font-size: 5rem !important;
 
     margin-left: -3%;
     opacity: 0.2;
@@ -277,7 +276,6 @@
     color: #1ed660;
     font-size: 2rem;
     margin-top: 19%;
-
   }
 
   .card-border-margin2 {
@@ -315,7 +313,6 @@
   }
 }
 
-
 /* 
 @media(max-width: 1184px) {
   .technology-img {
@@ -326,9 +323,8 @@
     background: white;
 }
 } */
-@media(max-width: 1066px) {
+@media (max-width: 1066px) {
   .arrow {
-
     height: 50px;
     width: 50px;
   }

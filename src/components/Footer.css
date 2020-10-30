@@ -7,6 +7,10 @@
   padding: 3%;
   flex-wrap: wrap;
 }
+.footer-skyspace-img {
+  position: relative;
+  right: 5%;
+}
 
 .main-footer {
   font-weight: bold;
@@ -15,15 +19,19 @@
 .storage {
   color: gray;
   cursor: pointer;
+  margin-top: 3rem;
+  font-size: 1.5rem;
 }
 .footer-input {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: center;
+  right: 6%;
 }
 .input-foot {
-  border-radius: 20px;
-  width: 70%;
+  border-radius: 48px;
+  width: 34rem;
   display: block;
   padding: 0.375rem 0.75rem;
   font-size: 1rem;
@@ -35,18 +43,18 @@
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   background-color: #2e3746 !important;
   border-color: #2e3746 !important;
-  height: 44px;
+  height: 4rem;
 }
-
 .footer-form {
-  width: 50%;
+  display: -webkit-inline-box;
 }
 .footer-subscribe {
-  border-radius: 20px;
+  border-radius: 38px;
   background-color: #1ed660;
   color: white;
-  width: 22%;
-  height: 44px;
+  height:4rem;
+  width: 13rem;
+ 
 }
 .footer-subscribe:hover {
   background-color: white;
@@ -57,7 +65,12 @@
   justify-content: space-around;
   padding: 1% 0%;
 }
-
+.footer-img-cursor1 {
+  margin-top: 3rem;
+}
+.footer-space {
+  margin-top: 1rem;
+}
 .footer-images-bottom {
   margin-right: 17px;
   width: 50px;
@@ -68,6 +81,7 @@
 .footer-responsive {
   display: none;
 }
+
 
 @media (max-width: 826px) {
   .all-divs-footer {

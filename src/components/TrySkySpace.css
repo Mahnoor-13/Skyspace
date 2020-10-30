@@ -7,13 +7,15 @@
 }
 .get-started {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
   background-color: #1ed660;
   color: white;
-  border-radius: 7px;
+  border-radius: 13px;
   border-color: #1ed660;
-  width: 100%;
-  padding: 4%;
+  /* width: 100%; */
+  /* padding: 4%; */
+  width: 18rem;
+  height: 4.4rem;
+  font-size: 2rem;
 }
 .get-started:hover {
   border-color: #1ed660;
@@ -22,15 +24,13 @@
 }
 .heading-try {
   color: white;
-  letter-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 3.2rem;
 }
 
-.tryskyspace-btn {
-  padding: 2%;
-  /* width: 21%; */
-  width: 21%;
+.tryskyspace-btn{
+  margin-top: 3%;
 }
-
 
 @media(max-width: 590px) {
   .heading-try{

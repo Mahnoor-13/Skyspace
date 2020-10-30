@@ -20,7 +20,7 @@ const Home = (props) => {
                   
                   <div className="para-btn-res">
                     {" "}
-                    <h5 className="my-3 skydpace-provivides">
+                    <h5 className="my-3 skyspace-provivides">
                       SkySpace provides simple and intuitive interface to store &
                       manage your data, services and interactions
                     </h5>
@@ -38,7 +38,7 @@ const Home = (props) => {
                 </h1>
                 <div className="para-btn-res">
                   {" "}
-                  <h5 className="my-3 skydpace-provivides">
+                  <h5 className="my-3 skyspace-provivides">
                     SkySpace provides simple and intuitive interface to store &
                     manage your data, services and interactions
                   </h5>

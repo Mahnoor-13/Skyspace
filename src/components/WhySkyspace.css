@@ -15,15 +15,16 @@
 .whyskyspaces2 {
   font-size: 2.9rem;
   letter-spacing: 1px;
-}
+} 
 .whyskyspaces3 {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   position: relative;
   top: 26px;
 }
 .color-h3 {
   color: #c0c0c0;
   font-weight: 400;
+  font-size: 1.8rem;
 }
 @media (max-width: 590px) {
   .color-h3 {
