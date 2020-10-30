@@ -8,9 +8,9 @@ const PrivacyandControl = (props) => {
         <div className="privacy-heading-display">
           <section id="header" className="">
             <div className="container-fluid ">
-              <div className="row row2">
+              <div className="row ">
                 <div className="col-11 mx-auto">
-                  <div className="row ">
+                  <div className="row row2">
                     <div className="col-md-6 lock-privacy-heading">
                       <img
                         className="lock1"

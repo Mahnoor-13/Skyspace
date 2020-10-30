@@ -98,7 +98,7 @@ a:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 605px) {
   .btn-color {
     padding: 4%;
     font-size: 70%;
@@ -192,4 +192,9 @@ a:hover {
     margin-top: 4%;
     margin-bottom: 5%;
   }
+}
+
+
+.store-color{
+  color: #c0c0c0!important;
 }

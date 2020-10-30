@@ -8,9 +8,9 @@ const Technology = (props) => {
         <div className="technology-heading-display">
           <section id="header" className="">
             <div className="container-fluid ">
-              <div className="row row-tec">
+              <div className="row ">
                 <div className="col-11 mx-auto">
-                  <div className="row ">
+                  <div className="row row-tec ">
                     <div className="col-md-6 lock-technology-heading">
                       <img
                         className="lock"

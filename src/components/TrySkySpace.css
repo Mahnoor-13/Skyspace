@@ -24,38 +24,43 @@
 }
 .heading-try {
   color: white;
-    letter-spacing: 1px;
-    font-size: 3.2rem;
+  letter-spacing: 1px;
+  font-size: 3.2rem;
 }
 
-.tryskyspace-btn{
+.tryskyspace-btn {
   margin-top: 3%;
 }
 
-@media(max-width: 590px) {
-  .heading-try{
-    font-size: 1.7rem
-  }
 
-}
-
-
+/* 
 @media(max-width: 619px) {
   .tryskyspace-btn {
     width: 27%;
   }
 }
-
-
-
-@media(max-width: 460px) {
+ */
+/* 
+@media (max-width: 460px) {
   .tryskyspace-btn {
     width: 38%;
   }
 }
 
-@media(max-width: 320px) {
+@media (max-width: 320px) {
   .tryskyspace-btn {
     width: 44%;
   }
+} */
+
+@media(max-width: 605px) {
+  .get-started {
+    width: 10rem;
+    height: 3.4rem;
+    font-size: 1.2rem;
+  }
+  .heading-try{
+    font-size: 1.5rem;
+  }
+
 }

@@ -1,10 +1,11 @@
 .footer-back {
   background-color: #252f3f;
+  padding: 6%;
 }
 .all-divs-footer {
   display: flex;
   justify-content: space-evenly;
-  padding: 3%;
+  padding: 0 0 0 3%;
   flex-wrap: wrap;
 }
 .footer-skyspace-img {
@@ -13,7 +14,7 @@
 }
 
 .main-footer {
-  font-weight: bold;
+  font-weight: 400;
   color: white;
 }
 .storage {
@@ -31,10 +32,10 @@
 }
 .input-foot {
   border-radius: 48px;
-  width: 34rem;
+  width: 37rem;
   display: block;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-style: oblique;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
@@ -43,18 +44,28 @@
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   background-color: #2e3746 !important;
   border-color: #2e3746 !important;
-  height: 4rem;
+  font-size: 20px;
+  padding: 1.5% 6%;
 }
 .footer-form {
   display: -webkit-inline-box;
+  margin-left: 7%;
+}
+.storage-bottom {
+  color: gray;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
+.bottom-border {
+  border: 0.5px solid gray;
+  margin-top: 5%;
 }
 .footer-subscribe {
   border-radius: 38px;
   background-color: #1ed660;
   color: white;
-  height:4rem;
-  width: 13rem;
- 
+  height: 3.5rem;
+  width: 11rem;
 }
 .footer-subscribe:hover {
   background-color: white;
@@ -62,8 +73,8 @@
 }
 .footer-followon {
   display: flex;
-  justify-content: space-around;
-  padding: 1% 0%;
+  justify-content: space-between;
+  margin: 2% 0% -5%;
 }
 .footer-img-cursor1 {
   margin-top: 3rem;
@@ -82,8 +93,15 @@
   display: none;
 }
 
+.email {
+  color: gray;
+  cursor: pointer;
+  margin-top: 3rem;
+  font-size: 1rem;
+  margin-right: 10%;
+}
 
-@media (max-width: 826px) {
+@media (max-width: 992px) {
   .all-divs-footer {
     display: none;
   }
@@ -96,8 +114,11 @@
   }
   .footer-img-cursor2 {
     cursor: pointer;
-    margin-top: 1%;
-    margin: 3% 11%;
+    margin: 3% 15%;
+    font-size: 1.2rem;
+  }
+  .responsive-image-sky-space {
+    margin: -3% auto;
   }
   .all-divs-footer2 {
     display: flex;
@@ -121,13 +142,27 @@
     margin-top: 5%;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 730px) {
   .footer-form {
     display: flex;
     justify-content: center;
+ 
   }
   .footer-subscribe {
-    margin-top: 5% !important;
+    position: relative;
+    top: 20px;
+  }
+}
+@media (max-width: 735px) {
+  .all-right-reserved {
+    font-size: 0.8rem;
+  }
+  .img-twitter {
+    height: 2.1rem !important;
+    width: 2.1rem !important;
+  }
+  .footer-images-bottom {
+    width: 30px;
   }
 }
 
@@ -145,12 +180,13 @@
 
 .footer-img-cursor {
   cursor: pointer;
+  font-weight: 400;
 }
 .twitter-logo {
   border-radius: 50%;
   width: 8%;
 }
-
+/* 
 @media (max-width: 800px) {
   .footer-subscribe {
     width: 27%;
@@ -172,10 +208,6 @@
   .footer-subscribe {
     width: 45%;
   }
-
-  .storage {
-    font-size: 0.8rem !important;
-  }
 }
 
 @media (max-width: 380px) {
@@ -188,7 +220,7 @@
   .footer-subscribe {
     width: 65%;
   }
-}
+} */
 
 @media (max-width: 663px) {
   .all-right-reserved {
@@ -230,14 +262,85 @@
   flex-wrap: wrap;
 }
 
-@media (max-width: 590px) {
-  .input-foot {
-    width: 100%;
+@media (max-width: 605px) {
+  .para-footer {
+    font-size: 1rem;
   }
-  .storage {
-    font-size: 0.3rem !important;
+  .footer-img-cursor2 {
+    font-size: 0.9rem;
+    /* width: 40%; */
   }
-  .footer-images-bottom {
-    width: 25px !important;
+  .logo-responsive {
+    cursor: pointer;
+    margin: 3% 30%;
+    font-size: 1.2rem;
   }
 }
+
+@media (max-width: 459px) {
+  .logo-responsive {
+    margin: 3% 25%;
+  }
+}
+@media (max-width: 385px) {
+  .logo-responsive {
+    margin: 3% 20%;
+  }
+}
+
+@media (max-width: 355px) {
+  .footer-img-cursor2 {
+    font-size: 0.8rem;
+  }
+  .logo-responsive {
+    margin: 3% 15%;
+  }
+}
+@media (max-width: 992px) {
+  .input-foot {
+    width: 25rem;
+  }
+  .footer-subscribe {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 700px) {
+  /* .footer-subscribe {
+    margin-left: 0;
+  } */
+  .email {
+    color: gray;
+    cursor: pointer;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 456px) {
+  .input-foot {
+    width: 21rem;
+  }
+}
+
+@media (max-width: 1145px) {
+  .input-foot {
+    width: 28rem;
+  }
+  .footer-subscribe {
+    border-radius: 38px;
+    background-color: #1ed660;
+    color: white;
+    height: 3rem;
+    width: 9rem;
+    /* position: absolute;
+    right: 8%; */
+  }
+}
+
+/* @media (max-width: 1077px) {
+  .footer-subscribe {
+    position: absolute;
+    right: 5%;
+  }
+} */

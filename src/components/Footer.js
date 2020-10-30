@@ -9,40 +9,48 @@ export const Footer = () => {
           <img
             className="footer-img-cursor"
             src={require("../images/logo.png")}
-            width="250"
+            width="200"
           />
         </div>
         <div className="para-footer ">
           {" "}
           <h4 className="main-footer footer-img-cursor ">SKYSPACES</h4>
-          <h5 className="storage footer-img-cursor footer-img-cursor1">Storage</h5>
-          <h5 className="storage footer-img-cursor footer-space">Pricing</h5>
-          <h5 className="storage footer-img-cursor footer-space">Development community</h5>
-          <h5 className="storage footer-img-cursor footer-space">space</h5>
+          <h6 className="storage footer-img-cursor footer-img-cursor1">
+            Storage
+          </h6>
+          <h6 className="storage footer-img-cursor footer-space">Pricing</h6>
+          <h6 className="storage footer-img-cursor footer-space">
+            Development community
+          </h6>
+          <h6 className="storage footer-img-cursor footer-space">space</h6>
         </div>
         <div className="para-footer para-footer-about footer-img-cursor">
           <h4 className="main-footer footer-img-cursor ">ABOUT</h4>
-          <h5 className="storage footer-img-cursor footer-img-cursor1" >Blog</h5>
-          <h5 className="storage footer-img-cursor footer-space">Terms of service</h5>
-          <h5 className="storage footer-img-cursor footer-space">Privacy and policy</h5>
+          <h6 className="storage footer-img-cursor footer-img-cursor1">Blog</h6>
+          <h6 className="storage footer-img-cursor footer-space">
+            Terms of service
+          </h6>
+          <h6 className="storage footer-img-cursor footer-space">
+            Privacy and policy
+          </h6>
         </div>
         <div className="para-footer para-footer-follow ">
           <h4 className="main-footer footer-img-cursor">FOLLOW US</h4>
-          <h5 className="storage footer-img-cursor footer-img-cursor1">Twitter</h5>
-          <h5 className="storage footer-img-cursor footer-space">Github</h5>
-          <h5 className="storage footer-img-cursor footer-space">Mastodon</h5>
-          <h5 className="storage footer-img-cursor footer-space">Discord</h5>
+          <h6 className="storage footer-img-cursor footer-img-cursor1">
+            Twitter
+          </h6>
+          <h6 className="storage footer-img-cursor footer-space">Github</h6>
+          <h6 className="storage footer-img-cursor footer-space">Mastodon</h6>
+          <h6 className="storage footer-img-cursor footer-space">Discord</h6>
         </div>
       </div>
-
       {/*************************For Responsive****************/}
-
       <div className="footer-responsive">
-        <div>
+        <div className="responsive-image-sky-space">
           <img
-            className="footer-img-cursor2"
+            className="footer-img-cursor2 logo-responsive"
             src={require("../images/logo.png")}
-            width="150"
+            width="180"
           />
         </div>
         <div className="all-divs-footer2">
@@ -68,7 +76,6 @@ export const Footer = () => {
         </div>
       </div>
       {/***************************************  ********************************/}
-
       <div className="footer-input">
         <p className="storage email">
           Share your email address for staying in touch with us
@@ -89,10 +96,10 @@ export const Footer = () => {
           </button>
         </form>
       </div>
-      <hr />
+      <div className="bottom-border"></div>{" "}
       <div className="footer-followon ">
         <div>
-          <div className="storage all-right-reserved">
+          <div className="storage-bottom all-right-reserved">
             &copy;2020 Skynet Hub Technologies. All rights reserved
           </div>
         </div>
@@ -108,10 +115,6 @@ export const Footer = () => {
               className="footer-images-bottom img-twitter"
               src={require("../images/twit.png")}
             />
-            <img
-              className="footer-images-bottom img-twitter"
-              src={require("../images/twitter-logo.png")}
-            />
           </div>
 
           <div>
@@ -122,11 +125,6 @@ export const Footer = () => {
           </div>
 
           <div>
-            {" "}
-            <img
-              className="footer-images-bottom"
-              src={require("../images/github.png")}
-            />
             <img
               className="footer-images-bottom"
               src={require("../images/discord1.png")}

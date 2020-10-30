@@ -58,7 +58,7 @@ const Community = (props) => {
                                   <div class="carousel-item active">
                                     <div class="row card-border-margin">
                                       <div class="col-md-4 mb-1">
-                                        <div class="card card-border card-comunity">
+                                        <div class="card card-border card-comunity card-comunity-responsive">
                                           <div className="community-images-stars">
                                             <img
                                               class="img-fluid layer-image"

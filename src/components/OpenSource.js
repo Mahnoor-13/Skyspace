@@ -8,9 +8,9 @@ const OpenSource = (props) => {
         <div className="open-heading-display">
           <section id="header" className="">
             <div className="container-fluid ">
-              <div className="row row-open">
+              <div className="row ">
                 <div className="col-11 mx-auto">
-                  <div className="row row-wrap-open">
+                  <div className="row row-wrap-open row-open">
                     <div className="col-lg-6 img-div-open   ">
                       <div className="open-img">
                         <img

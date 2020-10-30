@@ -20,8 +20,10 @@
 }
 
 .container-cards {
-  width: 195% !important;
-  padding-left: 59% !important;
+  width: 66rem !important;
+  position: relative;
+
+  left: 55%;
 }
 .arrow {
   border-radius: 100%;
@@ -32,8 +34,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
 }
 .arrow:hover {
   background-color: #1ed660;
@@ -42,7 +44,8 @@
 }
 .layer-image {
   border-radius: 95px;
-  width: 45%;   margin-top: 10%;
+  width: 45%;
+  margin-top: 10%;
 }
 
 /* .card-border-margin {
@@ -88,11 +91,11 @@
   padding: 8%;
 }
 .card-comunity {
-  width: 21rem !important;
+  width: 19rem !important;
 }
 @media (max-width: 770px) {
   .card-border {
-    margin-left: 17%;
+    margin-left: 48px;
   }
 }
 @media (max-width: 990px) {
@@ -105,8 +108,8 @@
   flex-direction: row;
   justify-content: flex-end;
   position: relative;
-  right: 4%;
-  padding: 3%;
+  right: 15%;
+  padding: 1%;
 }
 @media (max-width: 767px) {
   .arrow {
@@ -191,7 +194,7 @@
 }
 
 .card-border-margin {
-  width: 107%;
+  width: 100%;
   margin-left: 0%;
 }
 
@@ -232,7 +235,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
   .arrow-back2 {
     font-size: 1.9rem !important;
@@ -257,6 +259,7 @@
     display: flex;
     flex-direction: row;
     margin-right: 69%;
+    margin-left: -4%;
   }
 
   .layer2 {
@@ -290,8 +293,17 @@
   }
   @media (max-width: 770px) {
     .card-border-margin2 {
-      margin-left: -25%;
+      margin-left: -19%;
     }
+  }
+}
+
+@media (max-width: 712px) {
+  .arrow-display2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: 69%;
+    margin-left: -6%;
   }
 }
 
@@ -327,5 +339,21 @@
   .arrow {
     height: 50px;
     width: 50px;
+  }
+}
+
+@media (max-width: 1213px) {
+  .card-comunity-responsive {
+    margin-left: 12%;
+  }
+}
+
+@media (max-width: 1067px) {
+  .card-comunity-responsive {
+    margin-left: 20%;
+  }
+  .arrow-display {
+    position: relative;
+    right: 22% !important;
   }
 }

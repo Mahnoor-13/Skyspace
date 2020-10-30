@@ -14,6 +14,16 @@
   /* padding: 25% 17% 0; */
 }
 
+.own-your-space {
+  font-size: 40px;
+  color: #1ed660;
+}
+@media(max-width: 1266px) {
+  .own-your-space {
+    font-size: 35px;
+    color: #1ed660;
+  }
+}
 .give-it-try {
   background-color: #1ed660;
   color: white;
@@ -22,9 +32,8 @@
   /* width: 38%; */
   height: 29%;
   margin-top: 5%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   padding: 0 5%;
-
 }
 
 .give-it-try:hover {
@@ -32,10 +41,7 @@
   color: #1ed660;
   background-color: white;
 }
-.own-your-space {
-  color: #1ed660;
-  font-size: 2.9rem;
-}
+
 .skyspace-provivides {
   color: #c0c0c0;
   font-size: 1.6rem;
@@ -50,12 +56,15 @@
   }
 }
 
-@media (max-width: 990px) {
-   /* .give-it-try {
+@media (max-width: 992px) {
+  /* .give-it-try {
     width: 30%;
   }  */
   .flex {
     justify-content: center;
+  }
+  .skyspace-provivides {
+    text-align: center;
   }
 }
 
@@ -84,7 +93,7 @@
     display: block;
     color: #1ed660;
     text-align: center;
-
+    font-size: 2.9rem;
     margin-top: 10%;
   }
   .own-your-space {
@@ -92,12 +101,25 @@
   }
 }
 
+@media(max-width: 605px) {
+  .own-your-space2 {
+    font-size: 2rem;
+  }
+  .skyspace-provivides{
+    font-size: 1.4rem;
+  }
+  .give-it-try {
+    font-size: 1.3rem;
+  }
+}
+
 @media (max-width: 991px) {
   .para-btn-res {
     padding: 2% 0 7%;
   }
-  .give-it-try{
-    height: 3.6rem;  }
+  .give-it-try {
+    height: 3.6rem;
+  }
 }
 
 .all-home-padding {

@@ -8,9 +8,9 @@ const Security = (props) => {
         <div className="security-heading-display">
           <section id="header" className="">
             <div className="container-fluid ">
-              <div className="row row-sec">
+              <div className="row ">
                 <div className="col-11 mx-auto">
-                  <div className="row row-wrap">
+                  <div className="row row-sec row-wrap">
                     <div className="col-lg-6  img-div-security ">
                       <div className="security-img">
                         <img

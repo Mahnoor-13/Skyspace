@@ -74,20 +74,20 @@ export const Navbar = () => {
                   Home <span class="sr-only">(current)</span>
                 </a>
               </li>
-              <li class="nav-item nav-items">
-                <a class="nav-link" href="#">
+              <li class="nav-item nav-items ">
+                <a class="nav-link store-color" href="#">
                   Storage
                 </a>
               </li>
 
-              <li class="nav-item nav-items">
-                <a class="nav-link" href="#">
+              <li class="nav-item nav-items ">
+                <a class="nav-link store-color" href="#">
                   Features
                 </a>
               </li>
 
-              <li class="nav-item nav-items">
-                <a class="nav-link" href="#">
+              <li class="nav-item nav-items ">
+                <a class="nav-link store-color" href="#">
                   Blog
                 </a>
               </li>

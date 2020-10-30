@@ -36,3 +36,14 @@
     text-align: center;
   }
 }
+
+@media(max-width: 605px) {
+  .whyskyspaces2{
+    font-size: 2rem;
+  }
+  .whyskyspaces3{
+    font-size: 1rem;
+    position: relative;
+    top: 0px;
+  }
+}

@@ -20,9 +20,9 @@
 
 .pricing-heading {
   text-align: center;
-  margin: 4%;
+  margin: 2%;
   color: #1ed660;
-  font-size: 3.2rem;
+  font-size: 3rem;
 }
 .card-text-pricing {
   font-size: 12px;
@@ -37,6 +37,7 @@
   line-height: 30px;
   font-size: 15px;
   border-radius: 2%;
+  height: 24rem;
 }
 .dollor {
   font-size: 3.5rem;
@@ -60,10 +61,11 @@
   width: 20rem;
   background-color: white;
   border-radius: 10px;
+  height: 25rem;
 }
 .pricing-para {
-  margin-top: 15%;
-  margin-right: 8%;
+  margin-top: 8%;
+  /* margin-right: 8%; */
   line-height: 39px;
 }
 @media (max-width: 461px) {
@@ -79,7 +81,7 @@
   }
 }
 
-@media (max-width: 927px) {
+@media (max-width: 1090px) {
   .card3-pricing {
     margin-top: 5%;
   }
@@ -87,7 +89,29 @@
     /* width: 2rem; */
   }
 }
+@media(max-width: 726px) {
+  .card2-pricing {
+    margin-top: 5%;
+
+  }
+}
 
 .basic {
   margin-top: 5%;
+}
+
+@media (max-width: 605px) {
+  .pricing-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 605px) {
+  .card-pricing {
+    height: 23rem;
+    width: 17rem;
+  }
+  .card-body-pricing {
+    height: 22rem;
+  }
 }
